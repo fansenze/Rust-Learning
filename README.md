@@ -16,10 +16,11 @@
       ├──── src/  
       │      ├──── main.rs     # 入口文件
       ├──── target/  
-      │      ├──── debug/      # 开发环境目录
-      │      ├──── release/    # 初始化时，不会生成，只有跑过 cargo build/run --release 之后才会生成  
+      │      ├──── debug/      # 开发环境文件存放目录
+      │      ├──── release/    # 生产环境文件存放目录 (初始化时，不会生成，只有跑过 cargo build/run --release 之后才会生成)  
       ├──── Cargo.lock         # 项目依赖描述，Cargo会自动处理该文件，无视它就好
       ├──── Cargo.toml         # 项目描述，类似package.json  
+      ├──── .gitignore         # 这个不需要我介绍了吧  
   ```
 
 ### 2. 编译运行
@@ -29,4 +30,4 @@
 
   + build 和 run 命令不带参数则编译后的文件生成到 `target/debug` 文件夹中,快速重新构建满足开发环境  
   + build 和 run 命令带上 `--release` 则优化编译项目,生成到 `target/release` 文件中,用作生产环境  
-  + 不用 **rustc** 命令是因为任何平台(Windows, OSX, Linux)中，Cargo的命令都相同，另外Cargo会自动记录程序依赖到cargo.lock中
+  + 不用 **rustc** 命令是因为任何平台(Windows / OSX / Linux)中，Cargo的命令都相同，另外Cargo会自动记录程序依赖到cargo.lock中
