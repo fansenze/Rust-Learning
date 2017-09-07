@@ -2,13 +2,13 @@
 
 ### 本项目目录 
 
-> 通用概念  
-  ├──── [variables_mutability ── 变量和可变性](https://github.com/fansenze/Rust-Learning/tree/master/variables_mutability)  
-  ├──── [data_types ── 数据类型](https://github.com/fansenze/Rust-Learning/tree/master/data_types)  
-  ├──── [how_funtions_work ── 函数是如何工作的](https://github.com/fansenze/Rust-Learning/tree/master/how_funtions_work)  
-  ├──── [control_flow ── 控制流](https://github.com/fansenze/Rust-Learning/tree/master/control_flow)  
+**通用概念**  
+> [variables_mutability ── 变量和可变性](https://github.com/fansenze/Rust-Learning/tree/master/variables_mutability)  
+> [data_types ── 数据类型](https://github.com/fansenze/Rust-Learning/tree/master/data_types)  
+> [how_funtions_work ── 函数是如何工作的](https://github.com/fansenze/Rust-Learning/tree/master/how_funtions_work)  
+> [control_flow ── 控制流](https://github.com/fansenze/Rust-Learning/tree/master/control_flow)  
 
-> 所有权
+**所有权**
 
 
 
@@ -16,7 +16,7 @@
   
 
 ### 1. 创建
-  **cargo new myProject `--bin`** （会初始化git仓库，以及.gitignore文件，bin表示创建二进制项目）  
+  **cargo new myProject `--bin`** （bin表示创建二进制项目）  
   
   + `--vcs` （其他版本控制系统）  
   
@@ -42,8 +42,9 @@
 
   + build 和 run 命令不带参数则编译后的文件生成到 `target/debug` 文件夹中,快速重新构建满足开发环境  
   + build 和 run 命令带上 `--release` 则优化编译项目,生成到 `target/release` 文件中,用作生产环境  
-  + 不用 **rustc** 命令是因为任何平台(Windows / OSX / Linux)中，Cargo的命令都相同，另外Cargo会自动记录程序依赖到cargo.lock中
+  + 不用 **rustc** 命令是因为任何平台(Windows / OSX / Linux)中，Cargo 的命令都相同，另外 Cargo 会自动记录程序依赖到cargo.lock中
 
-
-更详细的文档在 [Rust 程序设计语言](https://kaisery.github.io/trpl-zh-cn)   
-`本项目纯属自学项目`
+  
+  
+参考文档: [Rust 程序设计语言](https://kaisery.github.io/trpl-zh-cn)   
+`本项目纯属自学项目`
