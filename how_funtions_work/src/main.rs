@@ -15,6 +15,6 @@ fn func(x: i32, y: bool, z: &str) {
 
 fn func2(x: i32, y: i32) -> i32 {
     println!("x is {}, y is {}", x, y);
-    // x + y
-    return x + y;
+    x + y
+    // return x + y;
 }
