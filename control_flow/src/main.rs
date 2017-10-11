@@ -34,8 +34,6 @@ fn main() {
     let n = 15;
     println!("{} 阶斐波那契数列: {}", n, fib(n));
 
-    sing();
-
     println!("end");
 }
 // 华氏温度和摄氏温度转换

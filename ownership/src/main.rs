@@ -24,11 +24,10 @@ fn main() {
     println!("c3 is {}", c3);
 }
 
-
 fn takes_ownership(some_string: String) {
     println!("{}", some_string);
 }
 
 fn makes_copy(some_integer: i32) {
     println!("{}", some_integer);
-} // H
+}
