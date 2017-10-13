@@ -9,7 +9,8 @@
   - [control_flow ── 控制流](https://github.com/fansenze/Rust-Learning/tree/master/control_flow)  
 
 + **所有权**
-  - [ownership ── 认识所有权](https://github.com/fansenze/Rust-Learning/tree/master/ownership)
+  - [ownership ── 认识所有权](https://github.com/fansenze/Rust-Learning/tree/master/ownership)  
+  - [references_borrowing ── 引用与借用](https://github.com/fansenze/Rust-Learning/tree/master/references_borrowing)
 
 ----
 ## Cargo: Rust 的构建系统和包管理工具  
